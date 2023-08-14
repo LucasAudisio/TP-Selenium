@@ -22,7 +22,12 @@ jobs:
           node-version: '18.15.0'
       - name: Install Angular
         run: npm install -g @angular/cli
-
+        
+      - name: Configure Firebase Project
+        run: |
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" > service-account.json
+          npx firebase use --add your-project-id # Configura el proyecto de Firebase
+     
       - name: Install dependencies
         run: npm install
 
