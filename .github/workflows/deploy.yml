@@ -32,6 +32,7 @@ jobs:
       - name: Configure Firebase Project
         run: |
           echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT_SELENIUM2_1472F }}" > service-account.json
+          firebase login
           npx firebase use --add selenium2-1472f # Configura el proyecto de Firebase
 
       - name: Build Angular app
