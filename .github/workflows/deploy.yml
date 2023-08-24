@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: '18.15.0'
     - run: npm install
-    - run: npm run build:prod
+    - run: ng serve
     - uses: w9jds/firebase-action@master
       with:
         args: deploy --only hosting
