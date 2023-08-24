@@ -19,6 +19,9 @@ jobs:
       with:
         node-version: '18.15.0'
     - run: npm install
+    
+      
+    -  run: npm install -g @angular/cli
     - run: ng serve
     - uses: w9jds/firebase-action@master
       with:
