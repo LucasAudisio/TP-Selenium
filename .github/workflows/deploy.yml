@@ -23,6 +23,7 @@ jobs:
       
     -  run: npm install -g @angular/cli
     - run: ng build
+    - run: firebase use --add selenium2-1472f
     - uses: w9jds/firebase-action@master
       with:
         args: deploy --only hosting
