@@ -1,0 +1,14 @@
+2023-08-28 15:52:25 - [32minfo[39m: Creating configuration file...
+2023-08-28 15:52:25 - [32minfo[39m: Setup completed
+2023-08-28 15:57:06 - [32minfo[39m: Reading configs from /home/expressofacha/Escritorio/Laburo/Admin redes/TP Selenium/loginRegistro/browserstack.yml
+2023-08-28 15:57:06 - [32minfo[39m: parallelsPerPlatform was not defined and has been set to 1 (Default)
+2023-08-28 15:57:12 - [32minfo[39m: Local binary started successfully
+2023-08-28 15:57:14 - [32minfo[39m: Running your mocha tests across 3 platforms
+2023-08-28 15:57:14 - [32minfo[39m: Now, showing logs from mocha
+2023-08-28 15:57:16 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 15:57:16 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 15:57:16 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 16:02:25 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c88c191b8848da6c87c6ff125de175eb29a8efeb
+2023-08-28 16:02:26 - [32minfo[39m: Visit https://observability.browserstack.com/builds/1bfmusjrchznk2bz7unxpgphywmltur7hj4go9rs to view build report, insights, and many more debugging information all at one place!
+
+2023-08-28 16:02:28 - [32minfo[39m: Local binary stopped
