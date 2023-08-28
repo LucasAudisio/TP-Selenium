@@ -1,15 +1,17 @@
 <div class="topnav" id="myTopnav">
-    <a href="/">Home</a>
-    <a href="/login">Login</a>
+    <a id="linkHome" href="/">Home</a>
+    <a id="linkLogin"  href="/login">Login</a>
     <a href="/cargaDatos" class="active">CargaDatos</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </div>
 
-<input [(ngModel)]="apellido" type="text" placeholder="apellido">
-<input [(ngModel)]="DNI" type="textnumber" placeholder="DNI">
-<input [(ngModel)]="nombre" type="text" placeholder="nombre">
+<input id="inputApellido" [(ngModel)]="apellido" type="text" placeholder="apellido">
+<input id="inputDNI" [(ngModel)]="DNI" type="textnumber" placeholder="DNI">
+<input id="inputNombre" [(ngModel)]="nombre" type="text" placeholder="nombre">
 <br>
-<button (click)="comprobacion()">Cargar Datos</button>
-{{respuesta}}
+<button id="botonCarga" (click)="comprobacion()">Cargar Datos</button>
+
+<h1 *ngIf="NohuboError" id="respuestaCarga">{{respuesta}}</h1>
+<h1 *ngIf="huboError" id="errorRespuesta">{{errorRespuesta}}</h1>

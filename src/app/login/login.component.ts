@@ -17,6 +17,7 @@ export class LoginComponent {
 
   Log_in() {
     if (this.email == "pepe@gmail.com" && this.password == "123456") {
+      localStorage.setItem("inicio", "si")
       this.router.navigate(["/"])
     }
     else{
